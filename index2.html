@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUDA SEIBEL - NAILS</title>
+
+    <!-- Fontes elegantes para um toque de sofisticação -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.min.css">
+
+    <style>
+      body {
+        font-family: 'Libre Baskerville', serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: linear-gradient(45deg, #f7e6d4, #f5d2b5);
+        background-size: cover;
+        background-position: center;
+        color: #4a3d32;
+    }
+
+        header {
+            background: url('https://img.freepik.com/vetores-premium/escultura-grega-antiga-cabeca-linear-da-estatua-antiga-da-deusa-afrodite_189033-1441.jpg?w=740') no-repeat center center;
+            background-size: cover;
+            padding: 150px 20px;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+
+        h1 {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 70px;
+        letter-spacing: 5px;
+        margin: 0;
+        text-transform: uppercase;
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    h2 {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 22px;
+        font-weight: 400;
+        color: #f5f5f5;
+        margin-top: 15px;
+    }
+        .story-container {
+            margin: 60px auto;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.85);
+            max-width: 900px;
+            border-radius: 20px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .story-container h2 {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 40px;
+        color: #3e2a47;
+        margin-bottom: 20px;
+    }
+
+    .story-container p {
+        font-size: 18px;
+        line-height: 1.8;
+        color: #4a3d32;
+        font-family: 'Libre Baskerville', serif;
+    }
+
+
+        .calendar-container {
+            margin: 50px auto;
+            text-align: center;
+            max-width: 900px;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .calendar-container h3 {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 35px;
+        color: #4a3d32;
+        margin-bottom: 30px;
+    }
+
+        .calendar-container .fc {
+            width: 70%;
+            margin: 0 auto;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: rgba(80, 60, 40, 0.9);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-family: 'Cinzel', serif;
+        }
+
+        .button {
+            background-color: #4a3d32;
+            color: white;
+            font-size: 18px;
+            padding: 14px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #f5b097;
+        }
+
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        .form-container input, .form-container select {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .form-container label {
+            font-size: 18px;
+            color: #4a3d32;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DUDA SEIBEL - NAILS</h1>
+    <h2>Transformando Unhas em Arte Divina</h2>
+</header>
+
+<div class="story-container">
+    <h2>A Jornada de Duda Seibel</h2>
+    <p>
+        Desde muito jovem, Duda Seibel teve um amor profundo pela arte da beleza. Apaixonada por criar algo único, ela começou sua carreira no mundo das unhas, aprimorando suas técnicas com dedicação e uma visão única. Sua jornada começou com pequenos atendimentos, onde ela se destacou pela precisão e elegância.
+        <br><br>
+        Com o tempo, Duda foi se especializando cada vez mais, inspirada pelas deusas divinas, cujas histórias de força e graça moldaram sua visão estética. Hoje, ela é reconhecida por sua habilidade inata e por transformar as unhas de suas clientes em verdadeiras obras de arte, cada uma com um toque de deusa.
+    </p>
+</div>
+
+<div class="calendar-container">
+    <h3>Agende seu Horário</h3>
+    <div id="calendar"></div>
+    <div class="form-container">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" placeholder="Seu nome" required>
+
+        <label for="phone">Telefone:</label>
+        <input type="text" id="phone" placeholder="Seu telefone" required>
+
+        <label for="date">Dia:</label>
+        <input type="text" id="date" placeholder="Selecione o dia" readonly>
+
+        <label for="time">Hora:</label>
+        <select id="time" required>
+            <option value="">Selecione o horário</option>
+        </select>
+        <label for="service">Serviço:</label>
+        <select id="service" required>
+            <option value="">Selecione o serviço</option>
+            <option value="unhaEmGel">Unha em Gel</option>
+            <option value="unhaDoPe">Unha do Pé</option>
+        </select>
+        <a href="#" class="button" id="confirmBooking">Confirmar Agendamento</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Duda Seibel - Nails. Todos os direitos reservados.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+        var selectedDate = ''; // Variável para armazenar a data selecionada
+        var pedicureBookings = []; // Lista para armazenar reservas de unha do pé
+
+        // Inicializa o calendário
+        $('#calendar').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,agendaWeek,agendaDay'
+            },
+            events: [],
+            dayClick: function(date) {
+                selectedDate = date.format(); // Captura a data selecionada
+                $('#date').val(date.format('DD-MM-YYYY')); // Exibe no campo de data
+
+                // Limpa horários disponíveis quando muda o dia
+                $('#time').empty();
+                $('#time').append('<option value="">Selecione o horário</option>');
+
+                // Preenche os horários com base no dia da semana e no serviço selecionado
+                updateTimes();
+            }
+        });
+
+        // Atualiza os horários com base no serviço selecionado e no dia da semana
+        function updateTimes() {
+            var service = $('#service').val(); // Verifica o serviço selecionado
+            var dayOfWeek = moment(selectedDate).day(); // Verifica o dia da semana (0 = domingo, 1 = segunda, ..., 6 = sábado)
+            var times = [];
+
+            if (!selectedDate) return; // Não faz nada se não há data selecionada
+
+            if (dayOfWeek === 6) {
+                // Horários para sábado
+                times = service === 'unhaEmGel' ? ['08:00', '10:00', '13:00'] : ['08:00', '11:00'];
+            } else if (dayOfWeek === 1) {
+                // Horários para segunda-feira
+                times = service === 'unhaEmGel' ? ['09:00', '13:00'] : ['10:00', '15:00'];
+            } else {
+                // Horários padrão para outros dias
+                times = service === 'unhaEmGel' ? ['09:00', '14:30', '16:30', '18:30'] : ['09:30', '13:30', '17:00'];
+            }
+
+            times.forEach(function(time) {
+                $('#time').append('<option value="' + time + '">' + time + '</option>');
+            });
+        }
+
+        // Atualiza os horários ao mudar o serviço
+        $('#service').change(function() {
+            $('#time').empty();
+            $('#time').append('<option value="">Selecione o horário</option>');
+            updateTimes();
+        });
+
+        // Verifica se já há um agendamento de unha do pé na semana
+        function isPedicureSlotAvailable(date) {
+            var weekStart = moment(date).startOf('week'); // Início da semana
+            var weekEnd = moment(date).endOf('week'); // Fim da semana
+
+            return pedicureBookings.every(function(booking) {
+                var bookingDate = moment(booking.date);
+                return !(bookingDate.isBetween(weekStart, weekEnd, null, '[]')); // Retorna falso se já há um agendamento na semana
+            });
+        }
+
+        // Ao confirmar o agendamento
+        $('#confirmBooking').click(function() {
+            var name = $('#name').val();
+            var phone = $('#phone').val();
+            var time = $('#time').val();
+            var service = $('#service').val();
+            var serviceText = service === 'unhaEmGel' ? 'unha em gel' : 'unha do pé';
+
+            if (!name || !phone || !time || !selectedDate) {
+                alert('Por favor, preencha todos os campos corretamente.');
+                return;
+            }
+
+            // Verificação de limite de 1 horário de unha do pé por semana
+            if (service === 'unhaDoPe' && !isPedicureSlotAvailable(selectedDate)) {
+                alert('Já existe um horário de unha do pé agendado nesta semana. Por favor, escolha outro serviço ou data.');
+                return;
+            }
+
+            // Adiciona a reserva de unha do pé à lista
+            if (service === 'unhaDoPe') {
+                pedicureBookings.push({ date: selectedDate, time: time });
+            }
+
+            var message = `Olá Duda, meu nome é ${name}, meu telefone é ${phone}. Gostaria de agendar ${serviceText} para o dia ${selectedDate} às ${time}.`;
+            var whatsappURL = `https://wa.me/5551994231399?text=${encodeURIComponent(message)}`; // Substitua pelo número de Duda
+            window.open(whatsappURL, '_blank');
+
+            // Adiciona o evento ao calendário
+            $('#calendar').fullCalendar('renderEvent', {
+                title: name + ' - ' + serviceText + ' às ' + time,
+                start: selectedDate + 'T' + time + ':00', // Data e horário selecionados
+                end: selectedDate + 'T' + time + ':59', // Fim do evento (ajustar conforme necessário)
+                allDay: false
+            });
+
+            alert(`Agendamento confirmado para ${name} (${serviceText}) no dia ${selectedDate} às ${time}`);
+        });
+    });
+</script>
+
+</body>
+</html>
+
